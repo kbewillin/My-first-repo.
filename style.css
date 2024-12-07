@@ -50,11 +50,11 @@ h1{
     border: 2px solid #ffff;
     padding: 15px 25px;
     border-radius: 50px;
-    transition: 3s;
+    
 }
-h1 :hover{
-    background-color: #ffff;
-    color: black;
+h1:hover{
+    opacity:0.5;
+    cursor:crosshair;
 }
 
 .msg-container{
